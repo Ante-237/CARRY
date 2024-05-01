@@ -13,11 +13,13 @@ MonoBehaviour:
   m_Name: DataSO
   m_EditorClassIdentifier: 
   Scenarios:
-  - "Imagine you are planning a three-day camping trip to a beautiful national park
-    known for its lush forests and clear lakes. \r\r"
-  - "The weather forecast predicts sunny days but chilly nights, with temperatures
-    dropping to around 45\xB0F (7\xB0C)."
-  - Your goal is to pack smartly, ensuring you have everything needed for a comfortable
-    and safe camping experience.
+  - You're preparing for a long day of classes at your university.
+  - ' It''s mid-semester, and your schedule includes lectures, a group project meeting,
+    and a study session at the library. '
+  - 'The weather forecast calls for mild weather, with a slight chance of rain in
+    the late afternoon. Your challenge is to pack everything you''ll need to stay
+    organized, focused, and comfortable throughout the day.
+
+'
   AllItems: []
   Tips: []
