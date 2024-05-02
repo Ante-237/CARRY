@@ -26,16 +26,16 @@ public class SceneTesting : MonoBehaviour
     public void RoomUnderstanding()
     {
        RandomPos = (Vector3) MRUK.Instance.GetCurrentRoom().GenerateRandomPositionInRoom(0.5f, false);
-       Instantiate(PrefabObject, RandomPos, Quaternion.identity);
+       //Instantiate(PrefabObject, RandomPos, Quaternion.identity);
 
        MRUK.Instance.GetCurrentRoom().GenerateRandomPositionOnSurface(MRUK.SurfaceType.FACING_UP, 0.05f, new LabelFilter(), out Vector3 SpawnPoint, out Vector3 UpwardPosition);
-       Instantiate(TestObject, SpawnPoint, Quaternion.identity);
+       //Instantiate(TestObject, SpawnPoint, Quaternion.identity);
 
        MRUK.Instance.GetCurrentRoom().TryGetClosestSurfacePosition(ProvideCameraPosition(), out Vector3 tPos, out MRUKAnchor closestAnchor);
-       Instantiate(TestObject, tPos , Quaternion.identity);
+       //Instantiate(TestObject, tPos , Quaternion.identity);
 
        MRUK.Instance.GetCurrentRoom().TryGetClosestSeatPose(GetRightControllerRay(), out Pose seatPose, out MRUKAnchor couch);
-       Instantiate(PrefabObject, seatPose.position, Quaternion.identity);
+       //Instantiate(PrefabObject, seatPose.position, Quaternion.identity);
     }
 
     Ray GetRightControllerRay()

@@ -41,7 +41,8 @@ Safety First: Always inform someone of your itinerary and expected return.
 /*
  *Second Options
  Scenario Description:
-You're preparing for a long day of classes at your university. It's mid-semester, and your schedule includes lectures, a group project meeting, and a study session at the library. The weather forecast calls for mild weather, with a slight chance of rain in the late afternoon. Your challenge is to pack everything you'll need to stay organized, focused, and comfortable throughout the day.
+You're preparing for a long day of classes at your university. It's mid-semester, and your schedule includes lectures, a group project meeting, and a study session at the library. 
+The weather forecast calls for mild weather, with a slight chance of rain in the late afternoon. Your challenge is to pack everything you'll need to stay organized, focused, and comfortable throughout the day.
 
 Essential Items to Pack:
 
@@ -100,7 +101,7 @@ public struct Items
 
 /// <summary>
 /// struct holds list of tips required 
-/// </summary>
+/// </summary> 
 [System.Serializable]
 public struct Tips
 {
